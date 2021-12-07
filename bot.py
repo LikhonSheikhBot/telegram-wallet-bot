@@ -11,7 +11,7 @@ from backend import get_user_transactions, get_user_balances, set_user_address, 
 # P_TIMEZONE = pytz.timezone(config.TIMEZONE)
 # TIMEZONE_COMMON_NAME = config.TIMEZONE_COMMON_NAME
 
-bot = telebot.TeleBot('1499578916:AAFwURdauecl6wUFLSeTy34eYj2kTGqIBn0')
+bot = telebot.TeleBot('5024958782:AAG2bV56JEE8ZCT7t64uA2nQPHX7nAIDpeY')
 print(bot)
 
 @bot.message_handler(commands=['start'])
